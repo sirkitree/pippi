@@ -1,0 +1,22 @@
+{
+    "name":         "ginger",
+    "description":  "Freckle CLI tool using node.js",
+    "keywords":     ["freckle", "cli", "tools"],
+    "author":       "sirkitree <sirkitree@gmail.com>",
+    "version":      "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/sirkitree/ginger.git"
+    },
+    "engines":      {
+      "node":       "*"
+    },
+    "dependencies": {
+        "optimist": ">= 0.1.5",
+        "freckle": ">= 0.0.1"
+    },
+    "main" : "./lib/cli",
+    "bin":          {
+      "nyam":       "./lib/cli.js"
+    }
+}
