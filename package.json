@@ -15,8 +15,7 @@
         "optimist": ">= 0.1.5",
         "freckle": ">= 0.0.1"
     },
-    "main" : "./lib/cli",
     "bin":          {
-      "nyam":       "./lib/cli.js"
+      "ginger":       "./lib/cli.js"
     }
 }
