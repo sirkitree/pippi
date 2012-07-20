@@ -4,8 +4,7 @@ _'Cuz gingers have freckles._
 Basic command line tool for logging hours in [let's freckle](http://letsfreckle.com). Uses the excellent [freckle api bindings](https://github.com/tbranyen/nodefreckle) from the Node.js library created by Tim Branyan [@tbranyen](http://twitter.com/tbranyen)
 
 ## Setup
-Currently you need to manually edit ./lib/cli.js and uncomment this line:
-`// freckle( "<your subdomain here>", "<your token here>" );` modifying it with your subdomain and token.
+Create a ~/.freckle file using the config.json file as a template. Modify each variable to your specific information.
 
 ## Use
 ```
@@ -41,6 +40,5 @@ log             Log time entries using various options.
 ```
 
 ## Todo
-* I'd like to use a basic config tool that will keep variables like api-key, subdomand and email in a separate file.
 * I'd like to be able to input a project name instead of id.
 * I'd like to have tab completion for project names and tags.
