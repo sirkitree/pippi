@@ -21,6 +21,7 @@ I'd like to use a basic config tool that will keep this in a separate file.
 
 ### `log`
  * uses various options to log time entries
+
 **Options**
 ```
 --project | -p
