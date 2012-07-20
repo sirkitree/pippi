@@ -7,34 +7,37 @@ Basic command line tool for logging hours in [let's freckle](http://letsfreckle.
 Currently you need to manually edit ./lib/cli.js and uncomment this line:
 `// freckle( "<your subdomain here>", "<your token here>" );` modifying it with your subdomain and token.
 
-@todo:
-I'd like to use a basic config tool that will keep this in a separate file.
-
-## Basic Usage
-`ginger log -p 101814 -m "quick update" -t 15m`
-
-## Commands
-
-### `list`
- * list projects, displaying the names
- * @todo: get this into a file for autocompletion
-
-### `log`
- * uses various options to log time entries
-
-**Options**
+## Use
 ```
---project | -p
-    The project ID.
-    ex: 101814
-    @todo: accept project name and correlate to id for final send.
---message | -m
-    The time log description. Surround in double quotes if spaces.
-    ex: tag - "tag, tag" - "tag description"
---time | -t
-    Time entry.
-    ex: 15m - 1.5h
---date | -d
-    Optional date formated in YYYY-MM-DD. Defaults to today.
-    ex: 2012-07-20
+Usage: ginger [command] [options]
+
+[Commands]
+list            List project associated with your subdomain.
+                  ex: ginger list
+
+log             Log time entries using various options.
+                  ex: ginger log -p 101814 -m "quick update" -t 15m
+
+[Options]
+-h, --help      Display this help page.
+                  ex: ginger -h
+
+-t, --time      Time entry in freckle specified format.
+                  ex: ginger -t 15m
+                  ex: ginger -t 1.5h
+
+-p, --project   The project ID.
+                  ex: ginger -p 101814
+
+-m, --message   Post a message to yammer
+                  ex: ginger -m "I'm working on ginger"
+                  ex: ginger -m "tag, tag, tag"
+
+-d, --date      Optional date formated in YYYY-MM-DD. Defaults to today.
+                  ex: 2012-07-20
 ```
+
+## Todo
+* I'd like to use a basic config tool that will keep variables like api-key, subdomand and email in a separate file.
+* I'd like to be able to input a project name instead of id.
+* I'd like to have tab completion for project names and tags.
