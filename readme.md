@@ -41,4 +41,3 @@ log             Log time entries using various options.
 * I'd like to use a basic config tool that will keep variables like api-key, subdomand and email in a separate file.
 * I'd like to be able to input a project name instead of id.
 * I'd like to have tab completion for project names and tags.
-* Help should be a command and not an option of log.
