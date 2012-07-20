@@ -34,7 +34,10 @@ log             Log time entries using various options.
                   ex: ginger -m "tag, tag, tag"
 
 -d, --date      Optional date formated in YYYY-MM-DD. Defaults to today.
-                  ex: 2012-07-20
+                  ex: ginger -d 2012-07-20
+
+-u, --user      Optional user to log time for. Defaults to user in config.json.
+                  ex: ginger -u apitest@letsfreckle.com
 ```
 
 ## Todo
