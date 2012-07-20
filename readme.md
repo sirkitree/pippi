@@ -20,9 +20,9 @@ I'd like to use a basic config tool that will keep this in a separate file.
  * @todo: get this into a file for autocompletion
 
 ### `log`
-```
  * uses various options to log time entries
 **Options**
+```
 --project | -p
     The project ID.
     ex: 101814
