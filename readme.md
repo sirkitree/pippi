@@ -11,7 +11,7 @@ Create a ~/.freckle file using the config.json file as a template. Modify each v
 Usage: ginger [command] [options]
 
 [Commands]
-list            List project associated with your subdomain.
+list            List projects associated with your subdomain. This will give you a list of project names and their IDs which you need for logging your entries.
                   ex: ginger list
 
 log             Log time entries using various options.
