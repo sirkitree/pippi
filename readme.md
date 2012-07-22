@@ -40,5 +40,4 @@ log             Log time entries using various options.
 ```
 
 ## Todo
-* I'd like to be able to input a project name instead of id.
 * I'd like to have tab completion for project names and tags.
