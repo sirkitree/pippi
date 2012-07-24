@@ -8,10 +8,15 @@ You can install this by installing node and npm and then running:
 
 `npm install pip`
 
-Pip reads from a config file, so you'll want to create a ~/.freckle file using the config.json file as a template and then modify each variable to your specific information.
+Pip reads from a config file, so you'll want to create a ~/.freckle file with the following information and then modify each variable to your specific information.
 
-1. `cp config.json ~/.freckle`
-1. edit ~/.freckle and use your subdomain, token, and user
+```json
+{
+    "subdomain": "apitest.letsfreckle.com",
+    "token": "lx3gi6pxdjtjn57afp8c2bv1me7g89j",
+    "user": "apitest@letsfreckle.com"
+}
+```
 
 Note: your API token can be found by logging into Freckle, clicking on 'settings & tools', and then the API tab.
 
