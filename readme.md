@@ -1,5 +1,5 @@
-# Ginger
-_'Cuz pips have freckles._
+# Pip
+_'Cuz Pippi has freckles._
 
 Basic command line tool for logging hours in [let's freckle](http://letsfreckle.com). Uses the excellent [freckle api bindings](https://github.com/tbranyen/nodefreckle) from the Node.js library created by Tim Branyan [@tbranyen](http://twitter.com/tbranyen).
 
