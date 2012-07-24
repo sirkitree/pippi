@@ -15,6 +15,8 @@ Pip reads from a config file, so you'll want to create a ~/.freckle file using t
 
 Note: your API token can be found by logging into Freckle, clicking on 'settings & tools', and then the API tab.
 
+You'll want to run `pip list` at least once to make sure you're connected properly, and to get a list of all projects which will be saved and used for project id lookups.
+
 ## Use
 ```
 Usage: pip [command] [options]
