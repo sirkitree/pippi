@@ -1,12 +1,15 @@
 # Pip
 _'Cuz Pippi has freckles._
 
-Basic command line tool for logging hours in [let's freckle](http://letsfreckle.com). Uses the excellent [freckle api bindings](https://github.com/tbranyen/nodefreckle) from the Node.js library created by Tim Branyan [@tbranyen](http://twitter.com/tbranyen).
+Basic command line tool for logging hours in [Freckle](http://letsfreckle.com). Uses the excellent [freckle api bindings](https://github.com/tbranyen/nodefreckle) from the Node.js library created by Tim Branyan [@tbranyen](http://twitter.com/tbranyen).
 
 ## Setup
 Create a ~/.freckle file using the config.json file as a template. Modify each variable to your specific information.
 
-`cp config.json ~/.freckle`
+1. `cp config.json ~/.freckle`
+1. edit ~/.freckle and use your subdomain, token, and user
+
+Note: your API token can be found by logging into Freckle, clicking on 'settings & tools', and then the API tab.
 
 
 ## Use
