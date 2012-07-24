@@ -1,12 +1,12 @@
 {
-    "name":         "ginger",
+    "name":         "pip",
     "description":  "Freckle CLI tool using node.js",
     "keywords":     ["freckle", "cli", "tools"],
     "author":       "sirkitree <sirkitree@gmail.com>",
     "version":      "0.0.1",
     "repository": {
       "type": "git",
-      "url": "http://github.com/sirkitree/ginger.git"
+      "url": "http://github.com/sirkitree/pip.git"
     },
     "engines":      {
       "node":       "*"
@@ -16,6 +16,6 @@
         "freckle": ">= 0.0.1"
     },
     "bin":          {
-      "ginger":       "./lib/cli.js"
+      "pip":       "./lib/cli.js"
     }
 }
