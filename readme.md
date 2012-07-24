@@ -6,6 +6,9 @@ Basic command line tool for logging hours in [let's freckle](http://letsfreckle.
 ## Setup
 Create a ~/.freckle file using the config.json file as a template. Modify each variable to your specific information.
 
+`cp config.json ~/.freckle`
+
+
 ## Use
 ```
 Usage: pip [command] [options]
