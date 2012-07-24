@@ -20,7 +20,9 @@ Note: your API token can be found by logging into Freckle, clicking on 'settings
 Usage: pip [command] [options]
 
 [Commands]
-list            List projects associated with your subdomain. This will give you a list of project names and their IDs which you need for logging your entries.
+list            List projects associated with your subdomain. This will give
+                you a list of project names and their IDs which you need for
+                logging your entries.
                   ex: pip list
 
 log             Log time entries using various options.
