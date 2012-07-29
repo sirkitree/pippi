@@ -6,7 +6,7 @@ Basic command line tool for logging hours in [Freckle](http://letsfreckle.com). 
 ## Setup
 You can install this by installing node and npm and then running:
 
-`npm install pippi`
+`npm install pippi -g`
 
 Pip reads from a config file, so you'll want to create a ~/.freckle file with the following information and then modify each variable to your specific information.
 
