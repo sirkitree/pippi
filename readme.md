@@ -6,7 +6,7 @@ Basic command line tool for logging hours in [Freckle](http://letsfreckle.com). 
 ## Setup
 You can install this by installing node and npm and then running:
 
-`npm install pip`
+`npm install pippi`
 
 Pip reads from a config file, so you'll want to create a ~/.freckle file with the following information and then modify each variable to your specific information.
 
@@ -20,41 +20,41 @@ Pip reads from a config file, so you'll want to create a ~/.freckle file with th
 
 Note: your API token can be found by logging into Freckle, clicking on 'settings & tools', and then the API tab.
 
-You'll want to run `pip list` at least once to make sure you're connected properly, and to get a list of all projects which will be saved and used for project id lookups.
+You'll want to run `pippi list` at least once to make sure you're connected properly, and to get a list of all projects which will be saved and used for project id lookups.
 
 ## Use
 ```
-Usage: pip [command] [options]
+Usage: pippi [command] [options]
 
 [Commands]
 list            List projects associated with your subdomain. This will give
                 you a list of project names and their IDs which you need for
                 logging your entries.
-                  ex: pip list
+                  ex: pippi list
 
 log             Log time entries using various options.
-                  ex: pip log -p 101814 -m "quick update" -t 15m
+                  ex: pippi log -p 101814 -m "quick update" -t 15m
 
 [Options]
 -h, --help      Display this help page.
-                  ex: pip -h
+                  ex: pippi -h
 
 -t, --time      Time entry in freckle specified format.
-                  ex: pip -t 15m
-                  ex: pip -t 1.5h
+                  ex: pippi -t 15m
+                  ex: pippi -t 1.5h
 
 -p, --project   The project ID.
-                  ex: pip -p 101814
+                  ex: pippi -p 101814
 
 -m, --message   Post a message to yammer
-                  ex: pip -m "I'm working on pip"
-                  ex: pip -m "tag, tag, tag"
+                  ex: pippi -m "I'm working on pippi"
+                  ex: pippi -m "tag, tag, tag"
 
 -d, --date      Optional date formated in YYYY-MM-DD. Defaults to today.
-                  ex: pip -d 2012-07-20
+                  ex: pippi -d 2012-07-20
 
 -u, --user      Optional user to log time for. Defaults to user in config.json.
-                  ex: pip -u apitest@letsfreckle.com
+                  ex: pippi -u apitest@letsfreckle.com
 ```
 
 ## Todo

@@ -1,12 +1,12 @@
 {
-    "name":         "pip",
+    "name":         "pippi",
     "description":  "Freckle CLI tool using node.js",
     "keywords":     ["freckle", "cli", "tools"],
     "author":       "sirkitree <sirkitree@gmail.com>",
     "version":      "0.0.2",
     "repository": {
       "type": "git",
-      "url": "http://github.com/sirkitree/pip.git"
+      "url": "http://github.com/sirkitree/pippi.git"
     },
     "engines":      {
       "node":       "*"
@@ -16,6 +16,6 @@
         "freckle": ">= 0.0.1"
     },
     "bin":          {
-      "pip":       "./lib/cli.js"
+      "pippi":       "./lib/cli.js"
     }
 }
