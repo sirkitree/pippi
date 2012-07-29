@@ -3,7 +3,7 @@
     "description":  "Freckle CLI tool using node.js",
     "keywords":     ["freckle", "cli", "tools"],
     "author":       "sirkitree <sirkitree@gmail.com>",
-    "version":      "0.0.2",
+    "version":      "0.0.3",
     "repository": {
       "type": "git",
       "url": "http://github.com/sirkitree/pippi.git"
