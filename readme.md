@@ -1,4 +1,4 @@
-# Pip
+# Pippi
 _'Cuz Pippi has freckles._
 
 Basic command line tool for logging hours in [Freckle](http://letsfreckle.com). Uses the excellent [freckle api bindings](https://github.com/tbranyen/nodefreckle) from the Node.js library created by Tim Branyan [@tbranyen](http://twitter.com/tbranyen).
